@@ -14,6 +14,7 @@ public class CanvasDefaultImpl implements ICanvas {
 
     @Override
     public void drawCircle(Point2D point, int radius, EColor color) {
+        System.out.println("Draw circle, centerPoint: " + point.toString() + ", radius: " + radius + ", color: " + color);
 
     }
 }
